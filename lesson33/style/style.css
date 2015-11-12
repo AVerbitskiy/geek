@@ -1,0 +1,46 @@
+table {
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 3px solid black;		
+}
+
+th {
+	font-weight: bold;
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.table1 {
+    border: 1px solid gray;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-align: left;
+    width: 1000px;
+}
+
+.table2 {
+    border: 1px solid gray;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-align: left;
+    width: 700px;
+}
+
+.table3 {
+    border: 3px solid gray;
+    text-align: left;
+    width: 700px;
+}
+
+
+
+
+
+
+
+
+
