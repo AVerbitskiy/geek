@@ -1,0 +1,146 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+.wrapper {
+    background-color: #F4F4F4;
+    line-height: 16px;
+    width: 1000px;
+    height: 1008px;
+    margin: 0 auto;
+}
+
+.header {   
+    background-color: #FFF;
+    padding: 35px 0 5px;
+    font-size: 18px;
+    font-family: Myriad Pro;
+}
+
+.sidebar-left {
+    width: 120px;
+    height: 400px;
+    float: left;
+    padding: 0 10px 0 20px;
+}
+
+.sidebar-bold {
+    font-weight: bold;
+}
+
+.sidebar-left li a {
+    text-decoration: none;
+    color: black;
+}
+
+.li-right {
+    float: right;
+    color: #555555;
+}
+
+.categories li {
+    background: #e8e8e8;
+    margin-top: 1px;
+    padding: 3px;
+}
+
+.categories {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.content {
+    width: 500px;
+    float: left;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Myriad Pro;
+    padding: 3px 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Myriad Pro;
+}
+
+p {
+    padding: 10px 0;
+}
+
+.shadow {
+   color: #878787; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.novost-formula, .novost-football {
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+
+.pagination ul li {
+    float: left;
+    margin-right: 1px;
+}
+
+.pagination li a {
+    margin-right: 2px;
+    padding: 3px 6px;
+    color: #000;
+    float: left;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.pagination {
+    margin: 30px 0 0 0;
+}
+
+.sidebar-right {
+    width: 300px;
+    padding: 0 10px;
+    float: left;
+}
+
+li.Sidebar_160 {
+    float: left;
+    width: 160px;
+    padding: 0 10px 0 0;
+}
+
+li.Sidebar_120 {
+    float: left;
+    width: 120px;
+    overflow: hidden;
+}
+.sidebar-bold {
+    font-weight: bold;
+}
+
+.twitter {
+    float: left;
+}
+
+.rss {
+    overflow: hidden;
+}
+
+.footer {
+    height: 50px;
+    width: 1000px;
+    float: right;
+}
+
+.footer p {
+    padding: 6px 0 6px 20px;
+}
+
+
+
