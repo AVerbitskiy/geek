@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    background-image: url("../img/fon.png");
+    background-repeat: no-repeat;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header,
+.main,
+.footer {
+    width: 776px;
+    margin: 0 auto;
+    color: #757575;
+    overflow: hidden;
+}
+
+/*--------------------- header area --------------------*/
+
+.header {
+    border-bottom: 1px solid #545454;
+    padding-top: 1px;
+}
+
+.nav-top {
+  	padding: 7px 16px;
+    background-color: white;
+    font-size: 11px;
+    border-radius: 3px 3px 23px 23px;
+    float: right;
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    margin-top: 45px;
+}
+
+.nav-top li {
+    float: left;
+    padding: 0 20px;
+}
+
+.nav-top li a {
+    text-decoration: none;
+    color: #737373;
+    text-transform: lowercase;
+}
+
+h3 {
+    font-size: 15px;
+    color: #646464;
+    font-family: Myriad Pro;
+    padding: 40px;
+    float: right;
+}
+
+.nav-top li a.active,
+.nav-top li a:hover {
+    color: #2B87C6;
+}
+
+.nav-bottom {
+    float: right;
+    margin: 15px 25px 0 0;
+    background-color: #6B6765;
+    font-size: 16px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.nav-bottom li a.nav-border {
+    border-left: 1px solid #6B6765;
+    border-right: 1px solid #6B6765;
+    }
+
+.nav-bottom li {
+    float: left;
+    padding: 15px 25px
+}
+
+.nav-header li {
+    float: left;
+   
+}
+
+.nav-bottom li a {
+    text-decoration: none;
+    color: #939597;
+    text-transform: lowercase;
+}
+
+.nav-bottom li a.active,
+.nav-bottom li a:hover {
+    color: #2B87C6;
+    border-bottom: none;
+}
+
+span {
+    float: right;
+    width: 200px;
+    font-size: 22px;
+    padding-top: 20px;
+    color: #939597;
+    font-family: Myriad Pro;
+}
+
+/*--------------------- main area --------------------*/
+
+.main {
+    padding: 20px 0;
+}
+
+.sidebar-title {
+	color: #03A7FD;
+}
+
+.sidebar {
+	float: left;
+	width: 230px;
+	margin-right: 20px; 
+    color: #545454;
+    font-size: 14px;
+}
+
+.category-list li {
+    border-bottom: 1px solid #6B6765;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.category-logo li {
+    padding: 4px 4px;
+    text-align: center;
+}
+
+.category-logo li a  {
+	-webkit-filter: grayscale(100%);
+}
+
+.category-logo li a:hover {
+    -webkit-filter: none;
+}
+
+.rss {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 15px 0 20px 0;
+    margin: 60px 0; 
+    text-align: center;
+}
+
+.rss a {
+    border: 3px solid #FFB040;
+    padding: 7px 45px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.rss-color {
+    color: #939597;
+    font-size: 22px;
+    font-family: Myriad Pro;
+    margin: -25px -37px;
+    padding: 7px 20px;
+}
+
+h2 {
+    color: #03A7FD;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.sidebar h2 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #03A7FD;
+}
+
+/*--------------------- content area --------------------*/
+
+.content {
+    overflow: hidden;
+    padding: 25px 0 0 20px;
+}
+
+.content h1 {
+    font-size: 26px;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2ba5ce;
+}
+
+.content li {
+    border-bottom: 1px solid #2ba5ce;
+}
+
+.logo-kompany {
+    padding: 20px 0 0 0;
+    float: left;
+}
+
+.content h4 {
+    padding: 15px 0 0 120px;
+    color: #2ba5ce;
+    font-size: 22px;
+}
+
+dl {
+    padding: 10px 0 15px 120px;
+    font-size: 12px;
+}
+
+dt {
+    float: left;
+    padding: 6px 0 0 5px;
+}
+
+dd {
+    padding: 8px 0 0 230px;
+    background-color: #DFE5E6;
+    margin: 2px 0;
+    color: black;
+    height: 17px;
+}
+
+.ceo-nomargin dd {
+    margin: 0;
+}
+
+dd a {
+    color: #2ba5ce;
+}
+
+/*--------------------- footer area --------------------*/
+
+.footer {
+    border-top: 1px solid black;
+    padding: 0 0 20px 0;
+}
+
+.footer p {
+    background-color: #D9DADA;
+    width: 528px;
+    color: #77797B;
+    border-radius: 0px 0px 15px 15px;
+    padding: 5px 0 5px 0px;
+    float: right;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer img {
+    float: right;
+    padding-right: 10px;
+}

@@ -1,0 +1,95 @@
+#content {
+    line-height: 1.2;
+    position: relative;
+    width: 750px;
+    margin: 20px auto;
+}
+    
+.italic {
+    font-style: italic;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+p.italic-center {
+    font-style: italic;
+    text-align: center;
+}
+
+p.bold-left {
+    font-weight: bold;
+    text-align: left;
+}
+
+p.italic-right {
+    font-style: italic;
+    text-align: right;
+}
+
+p.italic-bold {
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.underline {
+    text-decoration: underline;
+}
+
+span.underline-italic {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.ris1 {
+    float: left;
+    padding: 15px 10px 15px 0px;
+}
+
+.ris2 {
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
