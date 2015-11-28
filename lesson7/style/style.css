@@ -1,0 +1,396 @@
+body {
+	background-color: #edeff1;
+	width: 2000px;
+	height: 4437px;
+}
+
+/*--------------------- header area --------------------*/
+
+header {
+	width: 1165px;
+	height: 52px;
+	padding: 49px 419px 46px 416px;
+}
+
+.logo {
+	float: left;
+	width: 157px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+header h1 {
+	height: 28px;
+	color: #31353e;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+header span {
+	padding: 8px 1px 0 1px;
+	height: 16px;
+	color: #dd4b2b;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.nav {
+	width: 627px;
+	height: 15px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 19px 954px 18px 419px;
+	color: #31353e;
+}
+.nav a {
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.active {
+	width: 144px;
+	height: 49px;
+	background-color: #dd4b2b;
+	border-radius: 25px;
+	color: #edeff1;
+}
+
+
+/*--------------------- section area --------------------*/
+
+.section_one {
+	background-image: url('../img/background_section_one.png');
+	background-size: cover;
+	height: 1321px;
+	text-align: center;
+	color: white;
+	line-height: 48px;
+}
+
+.section_one h1 {
+	padding-top: 489px;
+	font-size: 72px;
+	font-weight: 300;
+	line-height: 48px;
+}
+
+.section_one h2, h3 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.section_one h3 {
+	line-height: 48px;
+}
+
+.section_one .menu {
+	width: 1107px;
+    height: 333px;
+    overflow: hidden;
+    margin-top: 121px;
+    padding-left: 450px;
+}
+
+.menu_one {
+    width: 303px;
+    height: 303px;
+    float: left;
+    overflow: hidden;
+}
+
+.menu_two {
+    width: 326px;
+    height: 333px;
+    float: left;
+    overflow: hidden;
+    padding-left: 80px;
+    padding-right: 75px;
+}
+
+.menu_three {
+    width: 323px;
+    height: 302px;
+    float: left;
+    overflow: hidden;
+}
+ 
+.section_one p {
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.section_one .menu_one p {
+	width: 303px;
+	height: 74px;
+}
+
+.section_one .menu_two p {
+	width: 326px;
+	height: 104px;
+}
+
+.section_one .menu_three p {
+	width: 323px;
+	height: 73px;
+}
+
+.section_one_button {
+	width: 213px;
+	height: 54px;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	margin: 78px auto;
+}
+
+.section_one_button a {
+	width: 90px;
+	height: 14px;
+	color: #612316;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 19px 60px 21px 63px;
+	text-decoration: none;
+}
+
+.section_two {
+	height: 786px;
+	text-align: center;
+	color: white;
+	line-height: 48px;
+}
+
+.section_two h1 {
+	padding-top: 82px;
+	padding-left: 933px;
+	width: 133px;
+	height: 23px;
+	color: #31353e;
+	font-family: RobotoSlab;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.section_two h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.section_two .menu_one {
+	width: 371px;
+    height: 494px;
+    float: left;
+    overflow: hidden;
+}
+
+.section_two .menu_two {
+    width: 371px;
+    height: 494px;
+    float: left;
+    overflow: hidden;
+    padding: 0 28px;
+}
+
+.section_two .menu_three {
+   width: 371px;
+    height: 494px;
+    float: left;
+    overflow: hidden;
+}
+
+.section_two .menu {
+	width: 1169px;
+    height: 494px;
+    overflow: hidden;
+    margin-top: 84px;
+    padding-left: 450px;
+    color: #31353e;
+}
+
+.section_two p {
+	line-height: 30px;
+}
+
+.section_two_button {
+	width: 179px;
+	height: 54px;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	margin: 29px auto;
+}
+
+.section_two_button a {
+	width: 71px;
+	height: 11px;
+	color: #612316;
+	font-family: RobotoSlab;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #4e5159;
+	text-decoration: none;
+}
+
+.section_three {
+	background-image: url('../img/background_section_three.png');
+	background-size: cover;
+	height: 383px;
+	text-align: center;
+	color: white;
+	line-height: 48px;
+    background-position: 0px -874px;
+}
+
+.section_three h1 {
+	padding-top: 91px;
+	height: 24px;
+	color: white;
+	font-family: RobotoSlab;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.section_three p {
+	padding-top: 22px;
+	padding-left: 730px;
+	width: 533px;
+	height: 38px;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 24px;
+}	
+
+.section_three_button {
+    width: 179px;
+    height: 54px;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    margin: 29px auto;
+}
+
+input {
+	width: 509px;
+	height: 54px;
+	text-align: center;
+	margin-top: 43px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+}
+
+button {
+	width: 213px;
+	height: 54px;
+	text-align: center;
+	margin-top: 43px;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+}
+	
+.section_four {
+	background-color: white;
+	background-size: cover;
+	height: 1021px;
+	text-align: center;
+	color: #191b29;
+	line-height: 48px;
+}
+
+.section_four .menu {
+	width: 1256px;
+    height: 866px;
+    overflow: hidden;
+    padding-top: 65px;
+    padding-left: 450px;
+    color: #31353e;
+}
+
+.section_four .menu_one {
+	width: 1256px;
+    height: 407px;
+}
+
+.img_right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.section_four h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.section_two p {
+	line-height: 30px;
+}
+
+.footer_top {
+    background: #d75d0e;
+    overflow: hidden;
+    height: 406px;
+    padding-left: 275px;
+}
+
+.footer_top ul {
+	float: left;
+	padding-left: 264px;
+	padding-top: 98px;
+}
+
+ footer li a {
+ 	text-align: center;
+ }
+
+.footer_top ul li a{
+    text-decoration: none;
+    width: 124px;
+	height: 193px;
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+}
+    
+.footer_bottom {
+	background-image: url('../img/background_footer_bottom.png');
+	background-position: 0px -875px;
+	background-size: cover;
+	height: 376px;
+    text-align: center;
+}
+
+.footer_bottom p{
+	width: 651px;
+	height: 41px;
+	color: white;
+	font-family: ProximaNova;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 300;
+	padding-top: 91px;
+	padding-left: 667px;
+}
+
+.footer_bottom span a {
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+}
