@@ -95,14 +95,14 @@ header span {
     padding-left: 450px;
 }
 
-.menu_one {
+.section_one .menu_one {
     width: 303px;
     height: 303px;
     float: left;
     overflow: hidden;
 }
 
-.menu_two {
+.section_one .menu_two {
     width: 326px;
     height: 333px;
     float: left;
@@ -293,9 +293,10 @@ input {
 
 button {
 	width: 213px;
-	height: 54px;
+	height: 56px;
 	text-align: center;
 	margin-top: 43px;
+	margin-left: -217px;
 	background-color: white;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	border-radius: 27px;
@@ -305,7 +306,6 @@ button {
 	background-color: white;
 	background-size: cover;
 	height: 1021px;
-	text-align: center;
 	color: #191b29;
 	line-height: 48px;
 }
@@ -313,32 +313,77 @@ button {
 .section_four .menu {
 	width: 1256px;
     height: 866px;
-    overflow: hidden;
     padding-top: 65px;
     padding-left: 450px;
     color: #31353e;
 }
 
-.section_four .menu_one {
+.section_four .menu_one, .menu_two {
 	width: 1256px;
     height: 407px;
 }
 
-.img_right {
-	float: right;
-}
-
-.left {
-	float: left;
-}
-
-.section_four h2 {
+.section_four .menu_one h1 {
+	width: 561px;
 	font-size: 24px;
 	font-weight: 700;
+	padding-top: 53px;
 }
 
-.section_two p {
+.section_four .menu_one p {
+	width: 561px;
 	line-height: 30px;
+}
+
+.section_four .menu_two h1 {
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 45px;
+	padding-top: 63px;
+}
+
+.section_four .menu_two p {
+	line-height: 30px;
+}
+
+.section_four .menu_two {
+	padding-top: 52px;
+}
+
+.section_four_button {
+	width: 213px;
+	height: 54px;
+	background-color: #dd4b2b;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	margin: 48px 0 0 0;
+}
+.menu_two .section_four_button {
+    margin: 49px 0 0 631px;
+}
+
+.section_four_button a {
+	width: 64px;
+	height: 18px;
+	color: white;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 19px 60px 21px 80px;
+	text-decoration: none;
+}
+
+.menu_one img {
+	padding-left: 62px;
+}
+
+.menu_two img {
+	padding-right: 43px;
+}
+
+.otstup_top {
+	padding-top: 43px;
 }
 
 .footer_top {
@@ -354,7 +399,7 @@ button {
 	padding-top: 98px;
 }
 
- footer li a {
+footer li a {
  	text-align: center;
  }
 
