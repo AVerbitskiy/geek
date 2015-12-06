@@ -1,0 +1,427 @@
+body {
+	background-color: #f4f4f4;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1173px;
+}
+
+/*---------------------  section_header --------------------*/
+
+.shapka {
+	background-image: url('../img/background_ultimate_collection.jpg');
+	background-size: cover;
+	height: 532px;
+	text-align: center;
+	padding: 32px 0 100px;
+}
+
+.logo {
+	float: left;	
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo p {
+	float: left;
+	color: #39c9da;
+	font-family: OpenSans;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.shapka .container h1 {
+	padding-top: 266px;
+	padding-bottom: 62px;
+}
+
+.logo p span {
+	color: white;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 400;
+}
+
+nav {
+	float: right;
+	width: 627px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+	height: 11px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 40px;
+	padding-top: 43px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: #39c9da;
+}
+
+.shapka .container h1 {
+	padding-left: 330px;
+	width: 504px;
+	height: 69px;
+	color: white;
+	font-family: OpenSans;
+	padding-bottom: 63px;
+	font-size: 33px;
+	font-weight: 700;
+	line-height: 45px;
+}
+
+a {
+	color: white;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 45px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.submit a:hover {
+	color: #39c9da;
+	background-color: white;
+}
+
+.button {
+	width: 201px;
+	height: 55px;
+	padding: 20px 40px;
+	background-color: #39c9da;
+	border-radius: 4px;
+}
+
+/*---------------------  section_about --------------------*/
+
+.about {
+	background-color: #fafafa;
+	height: 562px;
+}
+
+.section_header {
+	text-align: center;
+	padding-top: 64px;
+}	
+
+.section_header h1 {
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 45px;
+	text-transform: uppercase;
+}
+
+.section_header p {
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+.about img {
+    float: left;
+    padding-top: 104px;
+}
+
+.news {
+    padding-left: 42px;
+    padding-right: 44px;
+    overflow: hidden;
+}
+
+.news h2 {
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding-bottom: 22px;
+	padding-top: 52px;
+}
+
+.news p {
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.news a:hover {
+	color: #39c9da;
+	background-color: white;
+}
+
+.otstup_top {
+	padding-top: 30px;
+}
+
+.submit {
+	padding-top: 42px;
+}
+
+/*---------------------  section_portfolio --------------------*/
+
+.portfolio {
+	background-color: #f4f4f4;
+	height: 1003px;
+}
+
+.kartka {
+	background: white;
+    margin: 40px 0 0;
+	float: left;
+	width: 370px;
+	height: 363px;
+}
+
+.kartka_center {
+	background: white;
+	margin: 40px 31px 0;
+	float: left;
+	width: 370px;
+	height: 363px;
+}
+
+.img_center {
+	padding: 0 32px
+}
+
+.kartka p {
+	padding: 8px 14px 24px 14px;
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.kartka_center p {
+	padding: 8px 14px 24px 14px;
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.kartka span {
+	float: right;
+	color: #aba7ab;
+	font-family: OpenSans;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.kartka_center span {
+	float: right;
+	color: #aba7ab;
+	font-family: OpenSans;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+/*---------------------  section_services --------------------*/
+
+.services {
+	background-color: #fafafa;
+	height: 534px;
+}
+
+.tools {
+	background-color: white;
+	text-align: center;
+	width: 274px;
+	height: 301px;
+	float: left;
+	margin-top: 46px;
+	margin-right: 23px;
+	border: 1px solid #e2e2e2;
+}
+
+.tools:last-child {
+	margin-right: 0;
+}
+
+.tools p {
+	padding: 0 24px 28px;
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.tools h2 {
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 45px;
+	text-transform: uppercase;
+}
+
+.tools a {
+    background-color: #4b4a4b;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 30px;
+    transition: 0.5s;
+}
+
+.tools:hover {
+	background-color: #39c9da;
+	border: 1px solid #e2e2e2;
+	color: white;
+}
+
+/*---------------------  section_contact --------------------*/
+
+.info {
+	width: 560px;
+	float: left;
+}
+
+.info p {
+	padding-top: 29px;
+	width: 559px;
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+
+
+.info h2 {
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+dl {
+	width: 132px;
+	height: 92px;
+	padding-top: 23px;
+	font-family: OpenSans;
+	font-size: 14px;
+	line-height: 20px;	
+}
+
+dl dd {
+	color: #a8a8a8;
+	font-weight: 400;
+}
+
+dl dt {
+	color: #504f50;
+	padding-bottom: 26px;
+	font-weight: 700;
+}
+
+.forms {
+	padding-bottom: 25px;
+	overflow: hidden;
+}
+
+.name {
+	width: 270px;
+	height: 47px;
+	border: 1px solid #e6e6e6;
+}
+
+.email {
+	width: 270px;
+	height: 47px;
+	border: 1px solid #e6e6e6;
+}
+
+.subject {
+	width: 572px;
+	height: 47px;
+	border: 1px solid #e6e6e6;
+}
+
+.textarea {
+	width: 572px;
+	height: 152px;
+	border: 1px solid #e6e6e6;
+}
+
+input, textarea {
+    margin: 24px auto;
+}
+
+/*---------------------  section_contact --------------------*/
+
+footer {
+	background-color: #39c9da;
+	height: 50px;
+	color: white;
+	text-align: center;
+    padding-top: 20px;
+}
+
+input, placeholder {
+	padding-left: 16px;
+	color: #c9c9c9;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+textarea, placeholder {
+	padding-left: 16px;
+	padding-bottom: 31px;
+	color: #c9c9c9;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.container span {
+	padding-top: 20px;
+}
+.container span a {
+	color: white;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.forms a {
+    margin-left: 455px;
+}
+
+
+
