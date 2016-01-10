@@ -1,0 +1,317 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    
+.container {
+    width: 90%;
+}
+
+.shapka {
+    padding: 32px 0 0;
+}
+
+nav {
+    display: none;
+}
+
+.shapka .container h1 {
+    padding: 200px 0 0;
+}
+
+.section_header p {
+    width: 75%;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.section_header {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.about img {
+    float: none;
+    padding-top: 46px;
+}
+
+.news {
+    padding: 0 0 0 10px;
+    float: left;
+}
+
+.news h2 {
+    padding: 12px 0 0;
+}
+
+.about img {
+    width: 100%;
+}
+
+.kartka {
+    margin: 40px 31px 0;
+}
+
+.kartka a {
+    padding: 28.5%;
+}
+
+.kartka_center a {
+    padding: 28.5%;
+}
+
+.tools {
+    width: 100%;
+}
+
+.forms {
+    float: left;
+}
+
+footer {
+    float: left;
+    width: 100%;
+}
+
+section.contact {
+    float: left;
+}
+
+.email {
+    width: 44%;
+    margin-right: 0px;
+}
+
+.name {
+    width: 44%;
+    float: left;
+}
+
+.subject {
+    width: 100%;
+}
+
+.textarea {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    padding-right: 10px;
+}
+
+.info p {
+    width: 100%;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+.container {
+    width: 96%;
+}
+
+nav {
+    width: 74%;
+}
+
+nav ul li a {
+    padding-left: 20px;
+}
+
+.shapka .container h1 {
+    padding: 200px 0 0;
+}
+
+.section_header p {
+    width: 60%;
+    text-align: center;
+}
+
+.news {
+    padding: 0 0 0 10px;
+    overflow: hidden;
+}
+
+.news h2 {
+    padding: 12px 0 0;
+}
+
+.about img {
+    width: 50%;
+}
+
+.section_header p {
+    padding: 0 20%;
+}
+
+.portfolio {
+    height: 880px;
+}
+
+.kartka {
+    width: 48%;
+    margin: 40px 5px 0;
+}
+
+.kartka_center {
+    width: 48%;
+    margin: 40px 5px 0;
+}
+
+.kartka img {
+    width: 100%;
+}
+
+.kartka_center img {
+    width: 100%;
+}
+
+.kartka a {
+    position: absolute;
+    padding: 16.5%;
+}
+
+.kartka_center a {
+    position: absolute;
+    padding: 16.5%;
+}
+
+.tools {
+    width: 46%;
+    margin: 30px 13px 0;
+}
+
+.email {
+    width: 43%;
+    margin-right: 10%;
+}
+
+.name {
+    width: 43%;
+}
+
+.subject {
+    width: 96%;
+}
+
+.textarea {
+    width: 96%;
+}
+
+.info {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.info p {
+    width: 100%;
+}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1255px) {
+
+.container {
+    width: 96%;
+}
+
+/*---------------------  section_header --------------------*/
+
+nav ul li a {
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(2, 2, 2);
+}
+
+.shapka .container h1 {
+    padding: 200px 20% 0;
+}
+
+.about img {
+    width: 50%;
+}
+
+.section_header p {
+    padding: 0 28%;
+
+}
+
+/*---------------------  section_about --------------------*/
+
+.news h2 {
+    padding-bottom: 1px;
+}
+
+.news {
+    padding-left: 4%;
+    padding-right: 1%;
+    overflow: hidden;
+}
+
+/*---------------------  section_portfolio --------------------*/
+
+.portfolio {
+    height: 880px;
+}
+
+.kartka {
+    width: 31%;
+}
+
+.kartka_center {
+    width: 31%;
+}
+
+.kartka img {
+    width: 100%;
+}
+
+.kartka_center img {
+    width: 100%;
+}
+
+.kartka a {
+    position: absolute;
+    padding: 10.5%;
+}
+
+.kartka_center a {
+    position: absolute;
+    padding: 10.5%;
+}
+
+/*---------------------  section_services --------------------*/
+
+.tools {
+    height: 310px;
+    margin-right: 21px;
+    width: 23%;
+}
+
+/*---------------------  section_contact --------------------*/
+
+.email {
+    float: right;
+    width: 43%;
+    margin-right: 10%;
+}
+
+.name {
+    width: 43%;
+}
+
+.subject {
+    width: 96%;
+}
+
+.textarea {
+    width: 96%;
+}
+
+.info {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.info p {
+    width: 100%;
+}
+
+}

@@ -7,7 +7,9 @@ body {
 	width: 1173px;
 }
 
+
 /*---------------------  section_header --------------------*/
+
 
 .shapka {
 	background-image: url('../img/background_ultimate_collection.jpg');
@@ -22,7 +24,7 @@ body {
 }
 
 .logo a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .logo p {
@@ -31,11 +33,6 @@ body {
 	font-family: OpenSans;
 	font-size: 30px;
 	font-weight: 700;
-}
-
-.shapka .container h1 {
-	padding-top: 266px;
-	padding-bottom: 62px;
 }
 
 .logo p span {
@@ -51,7 +48,7 @@ nav {
 }
 
 nav ul li {
-    float: left;
+	float: left;
 }
 
 nav ul li a{
@@ -71,9 +68,7 @@ a:hover {
 }
 
 .shapka .container h1 {
-	padding-left: 330px;
-	width: 504px;
-	height: 69px;
+	padding: 200px 238px 0;
 	color: white;
 	font-family: OpenSans;
 	padding-bottom: 63px;
@@ -98,18 +93,22 @@ a {
 }
 
 .button {
+	display: block;
 	width: 201px;
-	height: 55px;
-	padding: 20px 40px;
+	padding: 8px 0;
 	background-color: #39c9da;
 	border-radius: 4px;
+	text-align: center;
+	margin: 0px auto;
 }
+
 
 /*---------------------  section_about --------------------*/
 
+
 .about {
 	background-color: #fafafa;
-	height: 562px;
+	height: 590px;
 }
 
 .section_header {
@@ -137,14 +136,14 @@ a {
 }
 
 .about img {
-    float: left;
-    padding-top: 104px;
+	float: left;
+	padding-top: 104px;
 }
 
 .news {
-    padding-left: 42px;
-    padding-right: 44px;
-    overflow: hidden;
+	padding-left: 42px;
+	padding-right: 44px;
+	overflow: hidden;
 }
 
 .news h2 {
@@ -179,7 +178,9 @@ a {
 	padding-top: 42px;
 }
 
+
 /*---------------------  section_portfolio --------------------*/
+
 
 .portfolio {
 	background-color: #f4f4f4;
@@ -188,10 +189,9 @@ a {
 
 .kartka {
 	background: white;
-    margin: 40px 0 0;
+	margin: 40px 0 0;
 	float: left;
 	width: 370px;
-	height: 363px;
 }
 
 .kartka_center {
@@ -199,7 +199,16 @@ a {
 	margin: 40px 31px 0;
 	float: left;
 	width: 370px;
-	height: 363px;
+}
+
+.kartka a {
+    position: absolute;
+    padding: 7.5%;
+}
+
+.kartka_center a {
+    position: absolute;
+    padding: 7.5%;
 }
 
 .img_center {
@@ -207,7 +216,7 @@ a {
 }
 
 .kartka p {
-	padding: 8px 14px 24px 14px;
+	padding: 14px 14px 18px 14px;
 	color: #504f50;
 	font-family: OpenSans;
 	font-size: 14px;
@@ -216,7 +225,7 @@ a {
 }
 
 .kartka_center p {
-	padding: 8px 14px 24px 14px;
+	padding: 14px 14px 18px 14px;
 	color: #504f50;
 	font-family: OpenSans;
 	font-size: 14px;
@@ -242,11 +251,14 @@ a {
 	line-height: 20px;
 }
 
+
 /*---------------------  section_services --------------------*/
+
 
 .services {
 	background-color: #fafafa;
 	height: 534px;
+	clear: both;
 }
 
 .tools {
@@ -256,12 +268,30 @@ a {
 	height: 301px;
 	float: left;
 	margin-top: 46px;
-	margin-right: 23px;
+	margin-right: 15px;
 	border: 1px solid #e2e2e2;
 }
 
 .tools:last-child {
 	margin-right: 0;
+}
+
+	.tools h2:after {
+	content: '';
+	width: 74px;
+	height: 1px;
+	background-color: #c2c2c2;
+	display: block;
+	margin: 10px auto 32px;
+}
+
+h2:after {
+	content: '';
+	width: 90px;
+	height: 3px;
+	background-color: #39c9da;
+	display: block;
+	margin: 10px 0 32px;
 }
 
 .tools p {
@@ -283,22 +313,51 @@ a {
 }
 
 .tools a {
-    background-color: #4b4a4b;
-    border-radius: 2px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    padding: 12px 30px;
-    transition: 0.5s;
+	background-color: #4b4a4b;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	padding: 12px 30px;
+	transition: 0.5s;
+}
+
+.tools i {
+	padding-top: 25px;
+	font-size: 2em;
+}
+
+.border {
+	width: 74px;
+	height: 1px;
+	background-color: #5c5959;
 }
 
 .tools:hover {
 	background-color: #39c9da;
-	border: 1px solid #e2e2e2;
+	border: 1px solid white;
+	color: white;
+	transition: 0.5s;
+}
+
+.tools:hover h2 {
 	color: white;
 }
 
+.tools:hover p {
+	color: white;
+}
+
+.tools:hover a {
+	width: 74px;
+	height: 1px;
+	color: #5c5959;
+	background-color: white;
+}
+
+
 /*---------------------  section_contact --------------------*/
+
 
 .info {
 	width: 560px;
@@ -315,8 +374,6 @@ a {
 	line-height: 20px;
 }
 
-
-
 .info h2 {
 	color: #504f50;
 	font-family: OpenSans;
@@ -328,7 +385,6 @@ a {
 
 dl {
 	width: 132px;
-	height: 92px;
 	padding-top: 23px;
 	font-family: OpenSans;
 	font-size: 14px;
@@ -351,32 +407,41 @@ dl dt {
 	overflow: hidden;
 }
 
+.forms a {
+	float: right;
+}
+
 .name {
-	width: 270px;
+	width: 262px;
 	height: 47px;
 	border: 1px solid #e6e6e6;
+	float: right;
 }
 
 .email {
-	width: 270px;
+	width: 262px;
 	height: 47px;
+	float: right;
+	margin-right: 48px;
 	border: 1px solid #e6e6e6;
 }
 
 .subject {
 	width: 572px;
 	height: 47px;
+	float: right;
 	border: 1px solid #e6e6e6;
 }
 
 .textarea {
 	width: 572px;
 	height: 152px;
+	float: right;
 	border: 1px solid #e6e6e6;
 }
 
 input, textarea {
-    margin: 24px auto;
+	margin: 24px auto;
 }
 
 /*---------------------  section_contact --------------------*/
@@ -386,7 +451,7 @@ footer {
 	height: 50px;
 	color: white;
 	text-align: center;
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 input, placeholder {
@@ -396,6 +461,7 @@ input, placeholder {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 15px;
+	box-sizing: border-box;
 }
 
 textarea, placeholder {
@@ -406,11 +472,9 @@ textarea, placeholder {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 15px;
+	box-sizing: border-box;
 }
 
-.container span {
-	padding-top: 20px;
-}
 .container span a {
 	color: white;
 	font-family: OpenSans;
@@ -418,10 +482,3 @@ textarea, placeholder {
 	font-weight: 400;
 	line-height: 20px;
 }
-
-.forms a {
-    margin-left: 455px;
-}
-
-
-
