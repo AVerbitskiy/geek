@@ -1,12 +1,31 @@
 body  {	
-	background-image: url(http://p1.pichost.me/i/20/1428356.jpg);
+	background-image: url(http://p1.pichost.me/i/20/1428356.jpg)     ;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 div {
-	font-size: 100px;
+	margin: 0 auto;
 	text-align: center;
-	height: 50%;
-	top: 0; left: 0; bottom: 0; right: 0;
-	margin: auto;
-	position: fixed;
+}
+
+li {
+	list-style-type: none;
+}
+
+a.button {
+	background: #5915DA;
+	margin: 35px 0 0 0;
+	display: inline-block;
+	color: #0AFB08;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 60px;
+	border: 3px solid;
+	border-radius: 15px;
+	transition: 0.5s;
+} 
+
+a.button:hover {
+	background: #DA15AE;
 }
