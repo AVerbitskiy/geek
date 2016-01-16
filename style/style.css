@@ -1,11 +1,10 @@
 body  {	
 	background-image: url(http://p1.pichost.me/i/20/1428356.jpg)     ;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 }
 
 div {
-	margin: 0 auto;
 	text-align: center;
 }
 
@@ -15,12 +14,12 @@ li {
 
 a.button {
 	background: #5915DA;
-	margin: 35px 0 0 0;
+	margin: 1% 0 0 0;
 	display: inline-block;
 	color: #0AFB08;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 10px 60px;
+	padding: 0.5% 6%;
 	border: 3px solid;
 	border-radius: 15px;
 	transition: 0.5s;

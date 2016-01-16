@@ -8,5 +8,7 @@ lesson5 - done
 lesson6 - done
 lesson7 - done
 lesson8 (responsive) - done
-lesson10 (grid) - in work
+lesson10 (grid) - done
 lesson11 - in work
+lesson12 - in work
+lesson13 - done
