@@ -1,0 +1,17 @@
+body {
+	background-image: url('../img/bg2.jpg');
+}
+
+p {
+	text-align: center;
+	color: #FF00E9;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 20%;
+}
+
+span {
+	border: 10px solid #FF00E9;
+    border-radius: 10%;
+    padding: 2%;
+}
